@@ -27,23 +27,23 @@ Vascular lesion
 ## Conclusions
 1. **Overfitting and Imbalanced Data:**
 
-  Overfitting tends to occur notably when the dataset is imbalanced.
-  Models trained on imbalanced data exhibit varied behaviors:
-  Model.1: Shows underfitting with low training and validation accuracies.
-
-  Model.2 and Model.3: Exhibit clear signs of overfitting with high training accuracies but significantly lower validation accuracies.
-
-  Model.3 incorporates an additional dropout layer but still demonstrates overfitting, suggesting that tweaking dropout factors or adding more layers might mitigate overfitting to some extent.
-
-  Model.4 shows decent performance with intermediate dropout layers, indicating that adding more layers with additional dropout layers might not significantly enhance performance but can reduce training time.
+    Overfitting tends to occur notably when the dataset is imbalanced.
+    Models trained on imbalanced data exhibit varied behaviors:
+    Model.1: Shows underfitting with low training and validation accuracies.
+  
+    Model.2 and Model.3: Exhibit clear signs of overfitting with high training accuracies but significantly lower validation accuracies.
+  
+    Model.3 incorporates an additional dropout layer but still demonstrates overfitting, suggesting that tweaking dropout factors or adding more layers might mitigate overfitting to some extent.
+  
+    Model.4 shows decent performance with intermediate dropout layers, indicating that adding more layers with additional dropout layers might not significantly enhance performance but can reduce training time.
 
 2. **Impact of Data Augmentation:**
 
-  Augmentation helps in balancing the dataset, mitigating the effects of imbalance.
-
-  Model.4, when trained on augmented data, shows improved performance:
-  Training accuracy remains high at above 92%.
-  Validation accuracy significantly improves to 88%.
+    Augmentation helps in balancing the dataset, mitigating the effects of imbalance.
+  
+    Model.4, when trained on augmented data, shows improved performance:
+    Training accuracy remains high at above 92%.
+    Validation accuracy significantly improves to 88%.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
