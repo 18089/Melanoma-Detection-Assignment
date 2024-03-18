@@ -1,5 +1,6 @@
 # Melanoma Detection Assignment
 > Problem Statement
+
 > To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 
@@ -50,12 +51,19 @@ Vascular lesion
 
 ## Technologies Used
 pathlib - version 1.0.1
+
 tensorflow - version 2.15.0
+
 pandas - version 1.5.3
+
 numpy - version 1.24.3
+
 pillow - version 10.2.0
+
 glob - version 0.7
+
 matplotlib - version 3.7.1
+
 Augmentor - version 0.2.12
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
